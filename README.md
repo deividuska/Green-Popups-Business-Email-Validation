@@ -5,7 +5,7 @@ Setup Instructions
 1. Make sure the 'Activate Custom JavaScript Handlers' module is enabled in Green Popups. Go to the 'Advanced Settings' page and turn it on.
 2. In your Green Popups form editor, click the button on the Top Toolbar, select the 'Advanced' tab, and click 'Custom JavaScript Handlers'.
 3. Add the following JavaScript code in the 'Custom JavaScript Handlers' section under the 'AfterInit' handler:
-```
+```js
 function validateBusinessEmail(event) {
   var emailField = document.querySelector('input[type="email"]'); // Adjust the query selector if needed
   var emailValue = emailField.value;
